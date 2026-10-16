@@ -18,8 +18,8 @@ export default function App() {
 
       <Button />
       <Data name="tanish" /> */}
-
-      <Counter />
+      <Data />
+      {/* <Counter /> */}
     </>
   );
 }

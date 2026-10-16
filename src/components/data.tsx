@@ -7,7 +7,7 @@ export default function Data() {
     async function fetchUserData(){
         const user = await fetch("https://jsonplaceholder.typicode.com/users")
         const data = await user.json()
-
+        console.log(data)
         console.log(data)
     }
 
